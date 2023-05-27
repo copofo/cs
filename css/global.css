@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family= Rubik+Puddles & display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family= Dancing +Script & display=swap');
 
 @font-face {
     font-family: 'Rubik Puddles';
@@ -12,6 +12,15 @@
     font-weight: normal;
 
 }
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf') format('opentype');
+    font-weight: normal;
+
+}
+
+
 
 :root{
   --cor0: #ffe2ed;
@@ -24,6 +33,9 @@
   --fonte-padrao: arial, verdana, helvetica, sans-serif;
   
   --fonte-destaque: 'Rubik Puddles', cursiva;
+  
+  --font-curse: 'Dancing Script', cursiva;
+ 
 }
 
 body{
@@ -42,7 +54,7 @@ header {
     box-shadow: 0 0 5px black;
 }
 
-header > h1 {
+header div h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 2em;
@@ -51,4 +63,11 @@ header > h1 {
     font-family: var(--fonte-destaque);
     word-spacing: 8px;
     letter-spacing: 2px;
+}
+
+header div p {
+  text-align: center;
+  color: white;
+  font-family: var(--font-curse);
+  font-size: 30px;
 }
