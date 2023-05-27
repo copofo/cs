@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Rubik+Puddles & display=swap') ;
+
+@font-face {
+    font-family: 'Rubik Puddles';
+    src: url('../fonts/RubikPuddles-Regular.ttf') format('opentype');
+    font-weight: normal;
+
+}
+
+:root{
+  --cor0: #ffe2ed;
+  --cor1: #FFA1C4;
+  --cor2: #E691B0;
+  --cor3: #BF7892;
+  --cor4: #805062;
+  --cor5: #402831;
+  
+  --fonte-padrao: arial, verdana, helvetica, sans-serif;
+  
+  --fonte-destaque: 'Rubik Puddles', cursiva;
+}
+
+body{
+  background-color: var(--cor0);
+  font-family: var(--fonte-padrao);
+}
+
+header {
+    
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 5px black;
+}
+
+header > h1 {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
