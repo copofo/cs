@@ -23,18 +23,28 @@
 
 
 :root{
-  --cor0: #ffe2ed;
+  
+  --cor0: #ffdae8;
+  
+  --cor1: #FFA1C4;
+  --cor2: #CC819C;
+  --cor3: #805062;
+  --cor4: #FF5493;
+  --cor5: #802A49;
+  /*
   --cor1: #FFA1C4;
   --cor2: #E691B0;
   --cor3: #BF7892;
   --cor4: #805062;
   --cor5: #402831;
-  
-  --fonte-padrao: arial, verdana, helvetica, sans-serif;
+  */
+  --fonte-padrao: 'Oswald', sans-serif;
   
   --fonte-destaque: 'Rubik Puddles', cursiva;
   
   --font-curse: 'Dancing Script', cursiva;
+  
+
  
 }
 
