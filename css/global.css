@@ -65,7 +65,9 @@ header {
 }
 
 header div h1 {
+  /*
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    */
     color: white;
     font-size: 2em;
     font-weight: 400;
@@ -80,4 +82,106 @@ header div p {
   color: white;
   font-family: var(--font-curse);
   font-size: 30px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363)
+}
+
+nav {
+  margin-top: 10px;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+nav span{
+  background-color: var(--cor1);
+  padding: 5px;
+  border-radius: 10px;
+  color: var(--cor5);
+}
+
+nav span:hover{
+  background-color: var(--cor5);
+  color: var(--cor1);
+}
+body{
+  min-height: 100vh;
+}
+main{
+    margin-top: 20px;
+    height: calc(100% - 150px);
+}
+
+main h3{
+    color: black;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image:  linear-gradient(to right, var(--cor3),var(--cor2));
+    text-indent: 8px;
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+
+}
+
+ul{
+  background-color: white;
+  
+}
+
+li{
+  position: relative;
+  height: 120px;
+  margin: 20px 0;
+}
+
+hr{
+  margin-top: 10px;
+  border: solid var(--cor3);
+}
+
+
+.img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 15px;
+  top: calc(120px/2 - 49px);
+  overflow: hidden;
+  border: solid;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  height: 20px;
+  width: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 125px;
+}
+
+.descricao{
+  position: absolute;
+  left: 125px;
+  width: 200px;
+  height: 78px;
+  overflow: hidden;
+  padding-top: 10px;
+  color: var(--cor5);
+  font-weight: bold;
+}
+
+.preco{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-style: italic;
+  font-family: var(--font-curse);
+}
+img{
+  width: 150px;
+  height: 150px;
+ 
 }
