@@ -139,16 +139,18 @@ hr{
 
 .img{
   position: absolute;
-  width: 100px;
+  width: 134px;
   height: 100px;
   left: 15px;
   top: calc(120px/2 - 49px);
   overflow: hidden;
   border: solid;
-  border-radius: 2px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  background-image: radial-gradient(var(--cor0),var(--cor1),var(--cor3),var(--cor5))
 }
 
 .item{
@@ -159,12 +161,12 @@ hr{
   align-items: center;
   position: absolute;
   top: 10px;
-  left: 125px;
+  left: 159px;
 }
 
 .descricao{
   position: absolute;
-  left: 125px;
+  left: 159px;
   width: 200px;
   height: 78px;
   overflow: hidden;
@@ -181,7 +183,9 @@ hr{
   font-family: var(--font-curse);
 }
 img{
-  width: 150px;
-  height: 150px;
+  
+  
+  width: 134px;
+  height: 100px;
  
 }
