@@ -57,11 +57,13 @@ header {
     
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
     min-height: 150px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     box-shadow: 0 0 5px black;
+    
 }
 
 header div h1 {
@@ -87,8 +89,21 @@ header div p {
 
 nav {
   margin-top: 10px;
-  text-align: center;
   word-spacing: 2px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: var(--cor0);
+}
+
+nav a{
+  text-decoration: none;
+  outline: none;
 }
 
 nav span{
@@ -106,7 +121,7 @@ body{
   min-height: 100vh;
 }
 main{
-    margin-top: 20px;
+    margin-top: 10px;
     height: calc(100% - 150px);
 }
 
