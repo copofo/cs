@@ -111,6 +111,7 @@ main{
 }
 
 main h3{
+  margin-top: 10px;
     color: black;
     font-size: 1.3em;
     font-weight: normal;
@@ -143,7 +144,7 @@ hr{
   height: 100px;
   left: 15px;
   top: calc(120px/2 - 49px);
-  overflow: hidden;
+  /*overflow: hidden;*/
   border: solid;
   border-radius: 5px;
   display: flex;
@@ -155,7 +156,7 @@ hr{
 
 .item{
   height: 20px;
-  width: 70px;
+  width: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -168,8 +169,8 @@ hr{
   position: absolute;
   left: 159px;
   width: 200px;
-  height: 78px;
-  overflow: hidden;
+  min-height: 78px;
+  /*overflow: hidden;*/
   padding-top: 10px;
   color: var(--cor5);
   font-weight: bold;
